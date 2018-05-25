@@ -17,7 +17,7 @@ app.controller('mainCtrl', function($scope, $http, $rootScope){
 
 	//Angular - $http
 	$http({
-		url: 'http://api.walmartlabs.com/v1/search',
+		url: 'https://api.walmartlabs.com/v1/search',
 		method: 'jsonp',
 		params: {
 			'apikey': $rootScope.key,
